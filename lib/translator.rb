@@ -23,7 +23,7 @@ if emoticon
   emoticon = japanese_emoticons['get_emoticon'][emoticon]
   return emoticon
 else
-  puts sorry_message
+  return sorry_message
 end
 end
 
@@ -33,7 +33,7 @@ def get_english_meaning(file, emoticon)
   if emoticon
     emoticon = enlish_meaning['get_meaning'][emoticon]
   else
-    puts sorry_message
+    return sorry_message
   end
   
 end
