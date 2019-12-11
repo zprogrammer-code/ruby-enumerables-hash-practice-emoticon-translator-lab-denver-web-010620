@@ -30,7 +30,7 @@ end
 def get_english_meaning(file, emoticon)
   enlish_meaning = load_library(file)
   apology = "Sorry, that emoticon was not found"
-  if emoticon = enlish_meaning['get_meaning'][emoticon]
+  if emoticon == enlish_meaning['get_meaning'][emoticon]
     emoticon
   else
     return sorry_message
