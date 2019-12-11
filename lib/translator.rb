@@ -22,6 +22,7 @@ sorry_message = "Sorry, that emoticon was not found"
 
 if emoticon 
    emoticon = japanese_emoticons['get_emoticon'][emoticon]
+   return emoticon
 else
   return sorry_message
 end
