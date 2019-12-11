@@ -34,7 +34,7 @@ def get_english_meaning(file, emoticon)
   if emoticon = enlish_meaning['get_meaning'][emoticon]
      return emoticon
   else
-    return sorry_message
+    return apology
   end
   
 end
