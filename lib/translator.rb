@@ -21,7 +21,7 @@ def get_japanese_emoticon(file, emoticon)
 sorry_message = "Sorry, that emoticon was not found"
 
 if japanese_emoticons['get_emoticon'][emoticon] == emoticon
-   return emoticon
+   
 else
   return sorry_message
 end
